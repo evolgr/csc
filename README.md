@@ -1,4 +1,4 @@
-# CSC Simulator
+# Client Server Configuration dynamic Simulator
 
 A dynamic Spring Boot-based client-server simulator for mocking external integrations in a flexible and programmable way.
 
