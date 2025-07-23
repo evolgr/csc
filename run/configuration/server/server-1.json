@@ -1,0 +1,23 @@
+{
+  "id": "server-1",
+  "enabled": true,
+  "type": "server",
+  "autoDisableAfterSec": 300,
+  "serverBehavior": {
+    "matching": {
+      "method": "POST",
+      "path": "/mock-server/server-1",
+      "contains": "Hello"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\"response\": \"Received\"}"
+    },
+    "redirect": {
+      "enabled": false
+    }
+  }
+}

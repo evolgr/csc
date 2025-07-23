@@ -1,0 +1,16 @@
+{
+  "id": "client-1",
+  "enabled": true,
+  "type": "client",
+  "autoDisableAfterSec": 300,
+  "clientBehavior": {
+    "mode": "interval",
+    "intervalMs": 10000,
+    "method": "POST",
+    "url": "http://localhost:8080/mock-server/server-1",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"msg\": \"Hello from client\"}"
+  }
+}
